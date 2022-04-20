@@ -18,9 +18,6 @@ p{
     
 }
 
-h2,p {
-    color: #fff;
-}
 
 header{
     display:block;
@@ -75,13 +72,43 @@ aside,article{
     padding: 2em;
 }
 
-aside{ 
-    text-align: center;
-}
 
 article{
+    color: #fff;
     text-align: center;
     font-weight: bold;
+}
+
+aside{
+    border-radius: 10%;
+    margin-left: 2em;
+    padding: 1em;
+    float: left;
+    width:30em;
+    height:fit-content;
+    background-color: #fff;
+    color: black;
+}
+
+aside > ul{
+    display: inline;
+    padding: 0;
+}
+
+aside > ul > li{
+    padding: 1.7em;
+    list-style: none;
+    margin: 0 5px 0 5px;
+}
+
+aside > h2, aside > p{
+    padding: 0.9em;
+}
+
+article > p > a:visited,
+article > p > a:link{
+    color: rgb(18, 207, 182);
+    text-decoration: none;
 }
 
 /*@media only screen and (min-width: 786px) {
