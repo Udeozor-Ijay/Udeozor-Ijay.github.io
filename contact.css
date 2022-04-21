@@ -68,12 +68,11 @@ footer{
     padding: 15px;
 }
 
-aside,article{
-    padding: 2em;
-}
+
 
 
 article{
+    padding: 5em;
     color: #fff;
     text-align: center;
     font-weight: bold;
@@ -82,33 +81,51 @@ article{
 aside{
     border-radius: 10%;
     margin-left: 2em;
-    padding: 1em;
+    margin-top: 4em;
+    padding: 1.5em;
     float: left;
-    width:30em;
-    height:fit-content;
-    background-color: #fff;
-    color: black;
+    width:25%;
+    background-color: rgb(255, 238, 202);
+    color:rgb(100, 89, 89);
 }
 
 aside > ul{
     display: inline;
-    padding: 0;
 }
 
 aside > ul > li{
-    padding: 1.7em;
+    padding: 1.5em;
     list-style: none;
     margin: 0 5px 0 5px;
 }
 
-aside > h2, aside > p{
-    padding: 0.9em;
+
+aside > ul > li > a:link, aside > ul > li > a:visited{
+    
+    color: rgb(6, 94, 83);
+    text-decoration: none;
+}
+    
+
+aside > h2, aside > h3{
+    padding: 0.3em;
+    text-align: center;
 }
 
-article > p > a:visited,
-article > p > a:link{
+hr{
+   padding: 0.025em;
+}
+
+article > h3 > a:visited,
+article > h3 > a:link{
     color: rgb(18, 207, 182);
     text-decoration: none;
+}
+
+.icon{
+   float: left;
+   margin-right: 2em;
+
 }
 
 /*@media only screen and (min-width: 786px) {
@@ -116,3 +133,6 @@ article > p > a:link{
     
     }
 }*/
+
+/*<a href="https://www.flaticon.com/free-icons/twitter" title="twitter icons">Twitter icons created 
+by Pixel perfect - Flaticon</a>*/
