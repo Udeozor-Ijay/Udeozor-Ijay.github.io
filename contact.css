@@ -1,6 +1,10 @@
 * {
     margin: 0;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    
 }
+
 
 html,body{
     height: 100%;
@@ -11,6 +15,7 @@ body{
     background-image: url('images/pexels-hasan-albari-1229861.jpg');
     background-repeat:no-repeat;
     background-size: 100% 100%;
+    
 }
 
 p{
@@ -49,10 +54,16 @@ nav > ul > li{
 
 
 main {
-    display:block;
+    background-image: url('images/pexels-hasan-albari-1229861.jpg');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
     padding-top: 3em;
     padding-bottom: 3em;
-    min-height: 85%;
+    height: fit-content;
     
 }
 
@@ -65,7 +76,8 @@ footer{
     display:block;
     width:100%;
     background-color: rgb(9, 29, 59);
-    padding: 15px;
+    padding: 16px;
+
 }
 
 
@@ -75,16 +87,18 @@ article{
     padding: 5em;
     color: #fff;
     text-align: center;
-    font-weight: bold;
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 aside{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 10%;
     margin-left: 2em;
     margin-top: 4em;
     padding: 1.5em;
     float: left;
-    width:25%;
+    width:fit-content;
     background-color: rgb(255, 238, 202);
     color:rgb(100, 89, 89);
 }
@@ -128,11 +142,14 @@ article > h3 > a:link{
 
 }
 
-/*@media only screen and (min-width: 786px) {
+@media only screen and (max-width: 844px) {
+    aside {
+        margin: 0.5em;
+    }
 
     
     }
-}*/
+
 
 /*<a href="https://www.flaticon.com/free-icons/twitter" title="twitter icons">Twitter icons created 
 by Pixel perfect - Flaticon</a>*/
