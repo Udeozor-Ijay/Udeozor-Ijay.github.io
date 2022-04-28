@@ -144,8 +144,11 @@ article > p {
   font-weight: 400, 700;
 }
 
-/*@media only screen and (min-width: 786px) {
+@media only screen and (max-width: 786px) {
 
-flex-wrap:wrap-reverse;    
-    }
-}*/
+article > p {
+  font-family:'Caveat','Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: 400, 700;
+}
+}
