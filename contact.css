@@ -5,6 +5,11 @@
     
 }
 
+html{
+    background-image: url('images/pexels-hasan-albari-1229861.jpg');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
 
 html,body{
     height: 100%;
@@ -17,6 +22,51 @@ body{
     background-size: 100% 100%;
     
 }
+
+@font-face {
+  font-family: "Water Brush";
+  src: url("Fonts/Water_Brush/WaterBrush-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Soul";
+    src: url("Fonts/My_Soul/MySoul-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Indie";
+  src: url("Fonts/Indie_Flower/");
+}
+
+@font-face {
+  font-family: "Madi";
+  src: url("Fonts/Ms_Madi/MsMadi-Regular.ttf");
+}
+@font-face {
+    font-family: "Shadows";
+    src: url("Fonts/Shadows_Into_Light/ShadowsIntoLight-Regular.ttf");
+}
+
+@font-face {
+  font-family: "SquarePeg";
+  src: url("Fonts/Square_Peg/");
+}
+
+@font-face {
+  font-family: "PlayFair";
+  src: url("Fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Caveat";
+  src: url("Fonts/Caveat/Caveat-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "DancingScript";
+  src: url("Fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf");
+}
+
 
 p{
     margin: 0.5em 0 0.5em 0;
@@ -49,6 +99,7 @@ nav > ul > li{
     display: inline-block;
     list-style: none;
     margin: 0 5px 0 5px;
+    font-family: "Shadows";
 }
 
 
@@ -87,12 +138,13 @@ article{
     padding: 5em;
     color: #fff;
     text-align: center;
-    
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Shadows";
+    font-size: 24px;
+    font-weight: 400;
 }
 
 aside{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Shadows";
     border-radius: 10%;
     margin-left: 2em;
     margin-top: 4em;
@@ -101,6 +153,7 @@ aside{
     width:fit-content;
     background-color: rgb(255, 238, 202);
     color:rgb(100, 89, 89);
+    font-size: 17px;
 }
 
 aside > ul{
@@ -108,7 +161,7 @@ aside > ul{
 }
 
 aside > ul > li{
-    padding: 1.5em;
+    padding: 1.0em;
     list-style: none;
     margin: 0 5px 0 5px;
 }
