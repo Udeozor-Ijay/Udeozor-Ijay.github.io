@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    
+}
+
+
+html,body{
+    height: 100%;
+}
+
+body{
+    font-family: "Shadows";
+    background-image: url('images/pexels-hasan-albari-1229861.jpg');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+@font-face {
+  font-family: "Water Brush";
+  src: url("Fonts/Water_Brush/WaterBrush-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Soul";
+    src: url("Fonts/My_Soul/MySoul-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Indie";
+  src: url("Fonts/Indie_Flower/");
+}
+
+@font-face {
+  font-family: "Madi";
+  src: url("Fonts/Ms_Madi/MsMadi-Regular.ttf");
+}
+@font-face {
+    font-family: "Shadows";
+    src: url("Fonts/Shadows_Into_Light/ShadowsIntoLight-Regular.ttf");
+}
+
+@font-face {
+  font-family: "SquarePeg";
+  src: url("Fonts/Square_Peg/");
+}
+
+@font-face {
+  font-family: "PlayFair";
+  src: url("Fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Caveat";
+  src: url("Fonts/Caveat/Caveat-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "DancingScript";
+  src: url("Fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf");
+}
+
+
+
+header{
+    display:block;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color: rgb(9, 29, 59);
+    padding: 10px;
+}
+
+nav a:visited,
+nav a:link{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav > ul{
+    display: inline;
+    padding: 0;
+}
+
+nav > ul > li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px 0 5px;
+    font-family: "Shadows";
+}
+
+main{
+    padding: 5rem;
+    color: white;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    color: rgb(9, 29, 59);
+}
+
+
+article>section {
+            background-color: white;
+             margin-right: 3rem; border-radius: 16px;
+             padding: 2rem;
+             text-align: center;
+}
+
+article > section > h3 {
+
+    font-weight: bolder; 
+    font-size: larger;
+     margin-bottom: 1rem;
+}
+
+
+footer{
+    display:block;
+    width:100%;
+    background-color: rgb(9, 29, 59);
+    padding: 16px;
+
+}
+
+
+.icon{
+   float: left;
+   margin-right: 2em;
+
+}
+
+@media only screen and (max-width: 844px) {
+    article {
+        flex-wrap: wrap;
+        width: -webkit-fill-available;
+    }
+
+    article>section {
+            border-radius: 16px;
+             padding: 1rem;
+             flex-grow: 7;
+             margin-bottom: 2rem;
+             text-align: center;
+}
+
+    }
+
+
+/*<a href="https://www.flaticon.com/free-icons/twitter" title="twitter icons">Twitter icons created 
+by Pixel perfect - Flaticon</a>*/
