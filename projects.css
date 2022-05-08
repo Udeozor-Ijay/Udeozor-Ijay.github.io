@@ -1,9 +1,22 @@
 * {
     margin: 0;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+   
     
 }
+
+html{
+     -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+     background: url('images/pexels-hasan-albari-1229861.jpg') no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
 
 
 html,body{
@@ -12,9 +25,6 @@ html,body{
 
 body{
     font-family: "Shadows";
-    background-image: url('images/pexels-hasan-albari-1229861.jpg');
-    background-repeat:no-repeat;
-    background-size: 100% 100%;
     
 }
 
@@ -71,7 +81,7 @@ header{
     left:0;
     width:100%;
     background-color: rgb(9, 29, 59);
-    padding: 10px;
+    padding: 15px;
 }
 
 nav a:visited,
@@ -95,6 +105,11 @@ nav > ul > li{
 main{
     padding: 5rem;
     color: white;
+}
+
+main > h1 {
+    text-align: center; 
+    margin-bottom: 2rem;
 }
 
 article {
@@ -137,7 +152,8 @@ footer{
 @media only screen and (max-width: 844px) {
     article {
         flex-wrap: wrap;
-        width: -webkit-fill-available;
+        
+        margin-left: 2rem;
     }
 
     article>section {
@@ -148,6 +164,15 @@ footer{
              text-align: center;
 }
 
+    main {
+        padding: 0;
+    }
+
+    main > h1 {
+        margin: auto;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    }
     }
 
 
